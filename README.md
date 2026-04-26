@@ -6,6 +6,15 @@ Transcribe audio, redact PII with Gemma 4, then regenerate speech with a clean v
 
 **voice-redact** takes your audio recordings, strips out personally identifiable information (names, phone numbers, addresses), and regenerates natural-sounding speech with the sensitive parts removed. The output keeps the speaker's voice but zero private data survives — making it safe to share.
 
+
+## To-Do
+
+- **Fine-tune Gemma 4 as an ASR model** — Replace Qwen3-TTS entirely with a fine-tuned Gemma 4 ASR, reducing the pipeline to a single model family and lowering resource requirements for laptop and smaller devices.
+- **Improve PII detection** — Fine-tune Gemma 4 on PII-rich datasets to achieve more accurate identification and redaction of names, phone numbers, addresses, and other sensitive entities.
+- **Multilingual support** — Extend transcription, redaction, and voice generation to languages beyond English.
+- **Emotion preservation** — Detect and carry forward the speaker's emotional tone through the redaction and voice regeneration steps so the output sounds natural and expressive.
+
+
 ## Prerequisites
 
 ### Linux (GPU)
