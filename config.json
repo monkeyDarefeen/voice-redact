@@ -1,0 +1,50 @@
+{
+  "paths": {
+    "crispasr_bin": "CrispASR/build/bin/crispasr",
+    "asr_model": "qwen3-asr-1.7b-f16.gguf",
+    "llama_server_bin": "llama.cpp/llama-server",
+    "gemma_model": "unsloth/gemma-4-E2B-it-GGUF/gemma-4-E2B-it-UD-Q8_K_XL.gguf"
+  },
+  "ports": {
+    "gemma": 8080,
+    "crispasr_server": 8081
+  },
+  "asr": {
+    "backend": "qwen3"
+  },
+  "gemma": {
+    "model_name": "gemma-4",
+    "api_key": "local-dev",
+    "temperature": 0.0,
+    "max_tokens": 4096,
+    "top_k": 64,
+    "min_p": 0.05,
+    "grammar": "root ::= \"{\" [^}]+ \"}\""
+  },
+  "tts": {
+    "model_name": "k2-fsa/OmniVoice",
+    "device": "cuda:0",
+    "dtype": "float16",
+    "sample_rate": 24000,
+    "voice_mode": "original",
+    "original": {
+      "enabled": true
+    },
+    "reference": {
+      "enabled": null,
+      "ref_audio_path": null,
+      "ref_text": null
+    },
+    "random": {
+      "enabled": null,
+      "whisper": false,
+      "attributes": {
+        "gender": ["male", "female"],
+        "age": ["child", "teenager", "young adult", "middle-aged", "elderly"],
+        "pitch": ["very low pitch", "low pitch", "moderate pitch", "high pitch", "very high pitch"],
+        "english_accent": ["american accent", "british accent", "australian accent", "canadian accent", "indian accent", "chinese accent", "korean accent", "japanese accent", "portuguese accent", "russian accent"],
+        "chinese_dialect": ["河南话", "陕西话", "四川话", "贵州话", "云南话", "桂林话", "济南话", "石家庄话", "甘肃话", "宁夏话", "青岛话", "东北话"]
+      }
+    }
+  }
+}
