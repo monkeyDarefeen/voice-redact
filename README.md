@@ -2,7 +2,7 @@
 
 Transcribe audio, redact PII with Gemma 4, then regenerate speech with a clean voice.
 
-**Pipeline flow:** `Audio → Transcribe (CrispASR) → Redact (Gemma 4) → Voice Clone (OmniVoice) → Clean Audio`
+**Pipeline flow:** `Audio → Transcribe (Qwen3-TTS) → Redact (Gemma 4) → Voice Clone (OmniVoice) → Clean Audio`
 
 **voice-redact** takes your audio recordings, strips out personally identifiable information (names, phone numbers, addresses), and regenerates natural-sounding speech with the sensitive parts removed. The output keeps the speaker's voice but zero private data survives — making it safe to share.
 
