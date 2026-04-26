@@ -1,0 +1,8 @@
+{
+  "test_pii_3": {
+    "original_text": "You can reach me at david.chen at email dot com. I'll make sure to review the documents before our meeting.",
+    "redacted_text": "You can reach me at [EMAIL]. I'll make sure to review the documents before our meeting.",
+    "synthetic_text": "You can reach me at sarah miller.test@example.com. I'll make sure to review the documents before our meeting.",
+    "language": "English"
+  }
+}

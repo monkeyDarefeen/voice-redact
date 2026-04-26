@@ -1,0 +1,8 @@
+{
+  "test_pii_5": {
+    "original_text": "This is Emily Rodriguez. My email address is emily.rodriguez at mail. dot com, and I look forward to hearing from you.",
+    "redacted_text": "This is [NAME]. My email address is [EMAIL], and I look forward to hearing from you.",
+    "synthetic_text": "This is Alice Vance. My email address is alice.vance@example.com, and I look forward to hearing from you.",
+    "language": "English"
+  }
+}

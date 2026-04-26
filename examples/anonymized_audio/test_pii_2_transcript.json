@@ -1,0 +1,8 @@
+{
+  "test_pii_2": {
+    "original_text": "Please contact Sarah Johnson at five five five zero one four seven. She'll be expecting your call.",
+    "redacted_text": "Please contact [NAME] at [PHONE]. She'll be expecting your call.",
+    "synthetic_text": "Please contact Alice Vance at 555-0147. She'll be expecting your call.",
+    "language": "English"
+  }
+}

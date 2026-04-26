@@ -1,0 +1,8 @@
+{
+  "test_pii_4": {
+    "original_text": "My phone number is five five five eight two three nine. Please give me a call whenever you're available this week.",
+    "redacted_text": "My phone number is [PHONE]. Please give me a call whenever you're available this week.",
+    "synthetic_text": "My phone number is 555-123-4567. Please give me a call whenever you're available this week.",
+    "language": "English"
+  }
+}

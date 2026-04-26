@@ -1,0 +1,8 @@
+{
+  "test_pii_1": {
+    "original_text": "Hi, my name is John Mitchell. I'm calling to schedule a follow-up appointment for next Tuesday.",
+    "redacted_text": "Hi, my name is [NAME]. I'm calling to schedule a follow-up appointment for next Tuesday.",
+    "synthetic_text": "Hi, my name is Alice Vance. I'm calling to schedule a follow-up appointment for next Tuesday.",
+    "language": "English"
+  }
+}
