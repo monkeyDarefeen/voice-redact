@@ -214,3 +214,10 @@ This checks required keys, types, voice mode consistency, file existence, and pr
 | `install_macos_cpu.sh` | macOS (CPU) setup script |
 | `install_uv.ps1` | Windows (CPU) setup script |
 | `run_folder_pipeline.sh` | Shell loop for single-file pipeline |
+
+## Special Thanks and References:
+https://github.com/ggml-org/llama.cpp
+https://github.com/CrispStrobe/CrispASR
+https://unsloth.ai/docs/models/gemma-4
+https://huggingface.co/cstr
+
